@@ -1,0 +1,49 @@
+.White-Txt{
+  color: white;
+}
+.head {
+  height: 500px;
+  background-image: url("Lighthouse.jpg");
+  background-size:cover;
+  background-position:center;
+  background-position-y:top;
+  width: 100%;
+}
+.head-txt{
+  margin-left: 100px;
+  margin-top: 130px;
+}
+.main-txt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.LOGO{
+  margin-left: 50px;
+  color: white
+}
+.LoginBtn{
+  margin-right: 50px
+}
+.Button {
+  margin-top: 100px;
+  width: 550px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.SmallBtn {
+  width: 250px;
+  background-color: #1E415F;
+}
+.MoreBtn {
+  width: 150px;
+  margin-bottom: 100px;
+}
+.row {
+  padding-top: 15px;
+}
+.cards:hover{
+  transform: scale(105%);
+  transition:all 0.5s 0s ease;
+}
+
